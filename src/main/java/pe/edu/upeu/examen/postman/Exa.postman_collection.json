@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "551159da-f9a7-494d-b56b-1500177c89e0",
+		"name": "Exa",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "37857099"
+	},
+	"item": [
+		{
+			"name": "almacen",
+			"item": []
+		},
+		{
+			"name": "orden",
+			"item": []
+		},
+		{
+			"name": "forma_pago",
+			"item": []
+		},
+		{
+			"name": "proveedor",
+			"item": []
+		},
+		{
+			"name": "tipo_orden",
+			"item": []
+		}
+	]
+}

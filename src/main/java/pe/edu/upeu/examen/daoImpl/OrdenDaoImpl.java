@@ -4,10 +4,12 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
 import pe.edu.upeu.examen.dao.OrdenDao;
 import pe.edu.upeu.examen.entity.Orden;
 import pe.edu.upeu.examen.repository.OrdenRepository;
-
+@Component
 public class OrdenDaoImpl implements OrdenDao {
 	@Autowired
 	private OrdenRepository ordenRepository;

@@ -4,10 +4,12 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
 import pe.edu.upeu.examen.dao.ProveedorDao;
 import pe.edu.upeu.examen.entity.Proveedor;
 import pe.edu.upeu.examen.repository.ProveedorRepository;
-
+@Component
 public class ProveedorDaoImpl implements ProveedorDao {
 	@Autowired
 	private ProveedorRepository proveedorRepository;

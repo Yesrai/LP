@@ -19,7 +19,7 @@ import pe.edu.upeu.examen.entity.Proveedor;
 import pe.edu.upeu.examen.service.ProveedorService;
 
 	@RestController
-	@RequestMapping("/api/almacenes")
+	@RequestMapping("/api/proveedores")
 	public class ProveedorController {
 		@Autowired
 		private ProveedorService proveedorService;

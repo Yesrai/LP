@@ -4,10 +4,12 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
 import pe.edu.upeu.examen.dao.Tipo_OrdenDao;
 import pe.edu.upeu.examen.entity.Tipo_Orden;
 import pe.edu.upeu.examen.repository.Tipo_OrdenRepository;
-
+@Component
 public class Tipo_OrdenDaoImpl implements Tipo_OrdenDao {
 	@Autowired
 	private Tipo_OrdenRepository tipo_ordenRepository;

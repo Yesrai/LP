@@ -4,10 +4,12 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
 import pe.edu.upeu.examen.dao.Forma_pagoDao;
 import pe.edu.upeu.examen.entity.Forma_pago;
 import pe.edu.upeu.examen.repository.Forma_pagoRepository;
-
+@Component
 public class Forma_pagoDaoImpl implements Forma_pagoDao {
 	@Autowired
 	private Forma_pagoRepository forma_pagoRepository;

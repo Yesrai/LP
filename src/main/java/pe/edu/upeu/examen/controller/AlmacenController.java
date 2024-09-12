@@ -18,10 +18,9 @@ import jakarta.validation.Valid;
 import pe.edu.upeu.examen.entity.Almacen;
 import pe.edu.upeu.examen.service.AlmacenService;
 
-public class AlmacenController {
 	@RestController
 	@RequestMapping("/api/almacenes")
-	public class AlumnoController {
+	public class AlmacenController {
 		@Autowired
 		private AlmacenService almacenService;
 		
@@ -83,4 +82,4 @@ public class AlmacenController {
 				}		
 			
 		}
-	}}
+	}
